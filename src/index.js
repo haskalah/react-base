@@ -6,7 +6,8 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 
 import App from './components/App';
-import Firebase, { FirebaseContext } from './components/Firebase';
+import FirebaseContext from './components/Context/FirebaseContext';
+import Firebase from './components/Helpers/Firebase';
 
 import {ApolloProvider} from '@apollo/react-hooks'
 import {ApolloClient} from 'apollo-client';
